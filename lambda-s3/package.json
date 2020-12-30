@@ -1,0 +1,24 @@
+{
+  "name": "image-lambda",
+  "version": "1.0.0",
+  "description": "## a description of how to use your lambda. ## a description of any issues you encountered during deployment of this lambda. ## an image and thumbnail that your Lambda processed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarastrasner/image-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarastrasner/image-lambda/issues"
+  },
+  "homepage": "https://github.com/sarastrasner/image-lambda#readme",
+  "dependencies": {
+    "aws-sdk": "^2.819.0",
+    "sharp": "^0.27.0",
+    "util": "^0.12.3"
+  }
+}
